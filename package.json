@@ -30,7 +30,7 @@
   },
   "scripts": {
     "dev": "concurrently \"cd server && nodemon index.ts \" \"react-scripts start\" ",
-    "start": "node index.ts",
+    "start": "concurrently \"react-scripts build \" \"cd server && node index.ts \" ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
