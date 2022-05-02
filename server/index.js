@@ -12,6 +12,14 @@ app.use(bodyParser.json());
 app.use(bodyParser.json({ type: "text/*" }));
 app.use(bodyParser.urlencoded({ extended: false }));
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "../client/build")));
+
+  app.get("*", function (req, res) {
+    res.sendFile(path.join(__dirname, "../client/build", "index.html"));
+  });
+}
+
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader(
