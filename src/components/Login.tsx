@@ -68,7 +68,7 @@ const Login = () => {
             {data.isLoading ? (
               <div className="loader-container">
                 <img src={Spinner} alt="spinner" />
-                <div className="loader">Loading...</div>
+                <div className="loader">Loading....</div>
               </div>
             ) : (
               <div className="login-container">
