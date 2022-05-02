@@ -36,3 +36,104 @@
     transform: rotate(360deg);
   }
 }
+
+/* utility classes */
+
+.d-none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.fixed-full {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.static {
+  position: static;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
+}
+.items-end {
+  align-items: flex-end;
+}
+.items-start {
+  align-items: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.hover-blue:hover {
+  color: #0366d6;
+  cursor: pointer;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+}
+
+.mx-5 {
+  margin: 0 5px;
+}
+.mb-1 {
+  margin-bottom: 1px;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
+.mr-2 {
+  margin-right: 10px;
+}
+.mr-5 {
+  margin-right: 25px;
+}
+
+.my-1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mt-1 {
+  margin-top: 5px;
+}
+
+.text-1 {
+  font-size: 1rem;
+}
+.text-1-2 {
+  font-size: 1.2rem;
+}
+.text-1-5 {
+  font-size: 1.5rem;
+}
+/* utiliy classes */
