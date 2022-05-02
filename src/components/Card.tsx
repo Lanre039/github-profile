@@ -44,12 +44,12 @@ const Card = ({ data }: any) => {
       <div className="repositories__collection ">
         <div style={{ height: "30px" }} className="flex">
           <div className="star__box flex border__top-left">
-            <a className="flex items-center" href="#top">
+            <a className="flex items-center text-black" href="#top">
               <AiOutlineStar className="text-1-2" /> &nbsp; Star
             </a>
           </div>
           <div className="star__box border__top-right flex items-center">
-            <a className="flex items-center" href="#top">
+            <a className="flex items-center text-black" href="#top">
               <AiOutlineCaretDown size="13px" className=" text-1-2" />
             </a>
           </div>

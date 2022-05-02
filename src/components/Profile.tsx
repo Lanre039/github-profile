@@ -128,19 +128,19 @@ const Profile = ({ user, repo }: any) => {
               </div>
               <div className="flex">
                 <div className="star__box flex filters mr-1">
-                  <a className="flex items-center" href="#top">
+                  <a className="flex items-center text-black" href="#top">
                     <b>Type</b> &nbsp;{" "}
                     <AiOutlineCaretDown size="13px" className=" text-1-2" />
                   </a>
                 </div>
                 <div className="star__box flex filters mr-1">
-                  <a className="flex items-center" href="#top">
+                  <a className="flex items-center text-black" href="#top">
                     <b>Language</b> &nbsp;{" "}
                     <AiOutlineCaretDown size="13px" className=" text-1-2" />
                   </a>
                 </div>
                 <div className="star__box flex filters">
-                  <a className="flex items-center" href="#top">
+                  <a className="flex items-center text-black" href="#top">
                     <b>Sort</b> &nbsp;{" "}
                     <AiOutlineCaretDown size="13px" className=" text-1-2" />
                   </a>

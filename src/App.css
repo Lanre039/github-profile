@@ -57,6 +57,10 @@
   position: fixed;
 }
 
+.text-black {
+  color: black;
+}
+
 .w-80 {
   width: 80%;
 }
